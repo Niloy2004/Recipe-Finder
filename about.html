@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder — About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🍲 Recipe Finder</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="favorites.html">Favorites</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <button id="darkModeBtn" class="btn btn-sm btn-outline-light">🌙 Dark Mode</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About hero -->
+  <section class="about-hero">
+    <h1>About Recipe Finder</h1>
+    <p class="lead mb-0">A simple, fast way to discover what to cook next.</p>
+  </section>
+
+  <div class="container mt-5">
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <p>
+          Recipe Finder is a lightweight web app that helps you search, browse, and save recipes
+          from all over the world. It pulls real recipe data — ingredients, measurements, cooking
+          instructions, and video links — from TheMealDB, so you always get complete, up-to-date results.
+        </p>
+      </div>
+    </div>
+
+    <h4 class="section-title text-center">What you can do</h4>
+    <p class="section-subtitle text-center">Everything you need in one place</p>
+
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="feature-box" style="--i:0">
+          <div class="feature-icon">🔍</div>
+          <h6>Search recipes</h6>
+          <p class="text-muted mb-0">Find recipes instantly by name or ingredient.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box" style="--i:1">
+          <div class="feature-icon">🍽️</div>
+          <h6>Browse categories</h6>
+          <p class="text-muted mb-0">Explore recipes grouped by cuisine and type.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box" style="--i:2">
+          <div class="feature-icon">🎲</div>
+          <h6>Get a surprise</h6>
+          <p class="text-muted mb-0">Not sure what to cook? Get a random pick.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box" style="--i:3">
+          <div class="feature-icon">❤️</div>
+          <h6>Save favorites</h6>
+          <p class="text-muted mb-0">Keep your go-to recipes saved for later.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box" style="--i:4">
+          <div class="feature-icon">▶️</div>
+          <h6>Watch & cook</h6>
+          <p class="text-muted mb-0">Jump straight to a YouTube walkthrough.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-box" style="--i:5">
+          <div class="feature-icon">🌙</div>
+          <h6>Dark mode</h6>
+          <p class="text-muted mb-0">Easy on the eyes, day or night.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto">
+        <h4 class="section-title text-center mb-4">Built with</h4>
+        <table class="table">
+          <tbody>
+            <tr><td><strong>HTML5</strong></td><td>Page structure</td></tr>
+            <tr><td><strong>CSS3</strong></td><td>Custom styling & animations</td></tr>
+            <tr><td><strong>JavaScript</strong></td><td>App logic & API handling</td></tr>
+            <tr><td><strong>Bootstrap 5</strong></td><td>Responsive layout & components</td></tr>
+            <tr><td><strong>TheMealDB API</strong></td><td>Recipe data</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <h4 class="section-title">Author</h4>
+        <p class="mb-1"><strong>Niloy Goswami</strong></p>
+        <p class="text-muted">Aspiring Full Stack Developer passionate about building practical web applications.</p>
+        <a href="https://github.com/Niloy2004" target="_blank" class="btn btn-outline-dark btn-sm">GitHub Profile</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer text-center text-muted py-4 mt-4">
+    <div class="container">
+      <p class="mb-1">🍲 Recipe Finder — built with TheMealDB API</p>
+      <small>&copy; 2026 Recipe Finder. Made for learning &amp; practice.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="common.js"></script>
+</body>
+</html>

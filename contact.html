@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder — Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🍲 Recipe Finder</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="favorites.html">Favorites</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <button id="darkModeBtn" class="btn btn-sm btn-outline-light">🌙 Dark Mode</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-lg-7 mx-auto">
+        <h2 class="section-title text-center">Get in touch</h2>
+        <p class="section-subtitle text-center">Questions, feedback, or bug reports — send a message</p>
+
+        <div class="contact-card mt-4">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" id="contactName" class="form-control" placeholder="Your name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" id="contactEmail" class="form-control" placeholder="you@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea id="contactMessage" class="form-control" rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            <p id="contactConfirm" class="text-success text-center mt-3 mb-0" style="display:none;">
+              ✅ Your email app should now be open with the message ready to send.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer text-center text-muted py-4 mt-4">
+    <div class="container">
+      <p class="mb-1">🍲 Recipe Finder — built with TheMealDB API</p>
+      <small>&copy; 2026 Recipe Finder. Made for learning &amp; practice.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="common.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
